@@ -27,6 +27,9 @@
 		1175AA5D2B0DA8C00048AE41 /* LittleLemonRestaurantTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1175AA5C2B0DA8C00048AE41 /* LittleLemonRestaurantTests.swift */; };
 		1175AA672B0DA8C00048AE41 /* LittleLemonRestaurantUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1175AA662B0DA8C00048AE41 /* LittleLemonRestaurantUITests.swift */; };
 		1175AA692B0DA8C00048AE41 /* LittleLemonRestaurantUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1175AA682B0DA8C00048AE41 /* LittleLemonRestaurantUITestsLaunchTests.swift */; };
+		11D0657E2B0DFD7E004D25F1 /* Markazi.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 11D0657D2B0DFD7E004D25F1 /* Markazi.ttf */; };
+		11D065812B0DFD8A004D25F1 /* Karla-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 11D0657F2B0DFD8A004D25F1 /* Karla-Italic.ttf */; };
+		11D065822B0DFD8A004D25F1 /* Karla.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 11D065802B0DFD8A004D25F1 /* Karla.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +73,10 @@
 		1175AA622B0DA8C00048AE41 /* LittleLemonRestaurantUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LittleLemonRestaurantUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1175AA662B0DA8C00048AE41 /* LittleLemonRestaurantUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LittleLemonRestaurantUITests.swift; sourceTree = "<group>"; };
 		1175AA682B0DA8C00048AE41 /* LittleLemonRestaurantUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LittleLemonRestaurantUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		11D065552B0DECD0004D25F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		11D0657D2B0DFD7E004D25F1 /* Markazi.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Markazi.ttf; sourceTree = "<group>"; };
+		11D0657F2B0DFD8A004D25F1 /* Karla-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Karla-Italic.ttf"; sourceTree = "<group>"; };
+		11D065802B0DFD8A004D25F1 /* Karla.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Karla.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,13 +138,12 @@
 		1175AA452B0DA8BE0048AE41 /* LittleLemonRestaurant */ = {
 			isa = PBXGroup;
 			children = (
+				11D065552B0DECD0004D25F1 /* Info.plist */,
+				11D065542B0DEB3F004D25F1 /* Fonts */,
+				11D065492B0DE2D6004D25F1 /* Views */,
 				1153E8252B0DAF9200E37DF0 /* Models */,
 				1153E8342B0DB7AB00E37DF0 /* ContentView.swift */,
-				1153E8212B0DAF0E00E37DF0 /* Home.swift */,
 				1153E8232B0DAF1800E37DF0 /* Assets.xcassets */,
-				1153E81B2B0DAEE100E37DF0 /* Menu.swift */,
-				1153E81D2B0DAEEE00E37DF0 /* Onboarding.swift */,
-				1153E81F2B0DAEF700E37DF0 /* UserProfile.swift */,
 				1153E82A2B0DB5C100E37DF0 /* FetchedObjects.swift */,
 				1153E82B2B0DB5C100E37DF0 /* Persistence.swift */,
 				1175AA462B0DA8BE0048AE41 /* LittleLemonRestaurantApp.swift */,
@@ -172,6 +178,27 @@
 				1175AA682B0DA8C00048AE41 /* LittleLemonRestaurantUITestsLaunchTests.swift */,
 			);
 			path = LittleLemonRestaurantUITests;
+			sourceTree = "<group>";
+		};
+		11D065492B0DE2D6004D25F1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1153E8212B0DAF0E00E37DF0 /* Home.swift */,
+				1153E81B2B0DAEE100E37DF0 /* Menu.swift */,
+				1153E81D2B0DAEEE00E37DF0 /* Onboarding.swift */,
+				1153E81F2B0DAEF700E37DF0 /* UserProfile.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		11D065542B0DEB3F004D25F1 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				11D0657F2B0DFD8A004D25F1 /* Karla-Italic.ttf */,
+				11D065802B0DFD8A004D25F1 /* Karla.ttf */,
+				11D0657D2B0DFD7E004D25F1 /* Markazi.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -279,7 +306,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				1175AA4E2B0DA8C00048AE41 /* Preview Assets.xcassets in Resources */,
+				11D0657E2B0DFD7E004D25F1 /* Markazi.ttf in Resources */,
 				1153E8242B0DAF1800E37DF0 /* Assets.xcassets in Resources */,
+				11D065812B0DFD8A004D25F1 /* Karla-Italic.ttf in Resources */,
+				11D065822B0DFD8A004D25F1 /* Karla.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -485,6 +515,7 @@
 				DEVELOPMENT_TEAM = 8N65R72A85;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LittleLemonRestaurant/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -514,6 +545,7 @@
 				DEVELOPMENT_TEAM = 8N65R72A85;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LittleLemonRestaurant/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
