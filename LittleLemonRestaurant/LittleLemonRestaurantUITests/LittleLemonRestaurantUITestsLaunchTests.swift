@@ -1,13 +1,13 @@
 //
-//  Little_LemonUITestsLaunchTests.swift
-//  Little LemonUITests
+//  LittleLemonRestaurantUITestsLaunchTests.swift
+//  LittleLemonRestaurantUITests
 //
-//  Created by noppakun.a on 20/11/2566 BE.
+//  Created by noppakun.a on 22/11/2566 BE.
 //
 
 import XCTest
 
-final class Little_LemonUITestsLaunchTests: XCTestCase {
+final class LittleLemonRestaurantUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true

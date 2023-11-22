@@ -1,13 +1,13 @@
 //
-//  Little_LemonUITests.swift
-//  Little LemonUITests
+//  LittleLemonRestaurantUITests.swift
+//  LittleLemonRestaurantUITests
 //
-//  Created by noppakun.a on 20/11/2566 BE.
+//  Created by noppakun.a on 22/11/2566 BE.
 //
 
 import XCTest
 
-final class Little_LemonUITests: XCTestCase {
+final class LittleLemonRestaurantUITests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
